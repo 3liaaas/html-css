@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("https://i.pinimg.com/736x/62/8f/c3/628fc33c402950f53a4bc5e8031bc66c.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    background-color: #FF8200;
+}
+
+video{
+    width: 600px;
+}

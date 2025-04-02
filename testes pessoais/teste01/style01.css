@@ -1,0 +1,9 @@
+*{
+    background-image: linear-gradient(to top,#C3C3E6, #BBA0CA);
+    background-attachment: fixed;
+}
+
+
+div#lorem > p {
+    display:none;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com agrupamento de tags</title>
+
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0px;
+            background-color: #29E7CD;
+              
+              
+        }
+
+        header{
+            text-align: center;
+            background-color: #3993DD;
+            padding: 1px;
+            margin: 0px;
+            font-size:large;
+            border-style: solid;
+            
+        }
+
+        nav{
+            text-align: center;
+            word-spacing: 10px;
+            border: 10px hidden #29E7CD;
+            background-color: #198678;
+            color: #F4EBE8;
+        }
+
+        #neymar{
+            display: inline-block;
+            width: 1000px;
+            height: 500px;
+            margin: 40px;
+            border-style: solid;
+            border-color: black;
+            background-color: #6A3E37;
+            color: #29E7CD;
+        }
+
+        #imgney{
+            width: 1000px;
+            height: 500px;
+            display: inline-block;
+            position: absolute;
+            top: 220px;
+        }
+
+
+
+        #neymar > h1{
+            display: block;
+            width: 980px;
+            height: 250px;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: absolute;
+            background-color: #68322ac9;
+            top: 450px;
+            bottom: auto;
+             }
+             
+            #deitado{
+            padding-left: 10px;
+            display: inline-block;
+            width: 700px;
+            height: 200px;
+            margin: 40px;
+            border-style: solid;
+            border-color: black;
+            background-color: #6A3E37;
+            color: #29E7CD;
+            position: absolute;
+            left: 1030px;
+            
+            }
+
+
+            #deitado > h1 {
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+            position: absolute;
+            background-color: #68322a62;
+            left: 0px;
+            bottom: 50px;
+            
+            }
+
+            #tranquilao{
+                width: 710px;
+                height: 200px;
+                position: absolute;
+                display: inline-block;
+                top: 0px;
+                left: 0px;
+            }
+
+            footer{
+                text-align: center;
+            }
+
+
+           #lacracao{
+                width: 707px;
+                height:275px;
+                position: absolute;
+                display: inline-block;
+                bottom: 195px;
+                left: 1070px;
+                border: 5px solid black;
+                 }
+
+            .shadow > h1{
+            padding-left: 10px;
+            display: inline-block;
+            width: 700px;
+            height: 200px;
+            margin: 40px;
+            background-color: #6a3e378e;
+            color: #29E7CD;
+            position: absolute;
+            left: 1033px;
+            top: 480px;
+            
+            }
+
+        
+
+            .enzo{
+                text-align: center;
+                background-color: #E0ACD5;
+                border: 5px solid #6a3e378e;
+                padding: 1px;
+                margin: 0px;
+            }
+            .rodape{
+                background-color: #DC851F;
+                text-align: center;
+                display:flexbox;
+                margin: auto;
+                padding: auto;
+                color: #29E7CD;
+                
+                
+            }
+
+            .rodape > p:hover{
+                text-decoration: underline;
+           }
+
+           a:hover{
+            text-decoration: underline;
+            color: #E0ACD5;
+           }
+
+           a{
+            color: #29E7CD;
+           }
+           
+
+    </style>
+</head>
+<body>
+    <div id="naorodape">
+        <header>
+            <h1>Site do Lil Elias</h1>
+        </header>
+            <nav>
+                <h2><a href="https://gshow.globo.com/" target="_blank">Entreterimento</a> <a href="https://g1.globo.com/" target="_blank">Mundo</a> <a href="https://ge.globo.com/" target="_blank">Esportes</a> <a href="https://br.ign.com/" target="_blank">Games</a> <a href="https://www.moneytimes.com.br/" target="_blank">Economia</a> </h2>
+            </nav>
+        <main>
+            <div id="neymar">
+        
+                <img id="imgney" src="imagem/httpssportbuzz.com_.brmediauploadsneymar-preocupa-brasil-na-copa-do-mundo-1.jpg" alt="">
+                <h1>Neymar se machucou denovo véi
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aspernatur nisi commodi quibusdam, inventore aliquam voluptatum odit, dolor minus animi nulla cumque accusamus exercitationem impedit?</p>
+                </h1>
+        
+            </div>
+        
+            <div id="deitado">
+                <img id="tranquilao" src="imagem/Captura de tela 2025-03-25 184445.png" alt="">
+                <h1>"Queria trabalhar deitado, e hoje estou desempregado"<br>
+                Afirma o Jovem Tranquilão em entrevista
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis nam quia non quo delectus quidem adipisci incidunt, necessitatibus officia consequuntur.</p>
+        
+            </div>
+            <div class="shadow">
+                <img id="lacracao" src="imagem/AC-Shadows-crosses-2-million-players.jpg" alt="">
+                <h1>"Que novela chata!"
+                    <br>
+                    <p>Afirma Elias sobre as notícias de Assassin's Creed Shadows.</p>
+                </h1>
+            </div>
+            <div class="enzo">
+                <h1 id="frontenzo">99% dos "Front-enzos" preferem demissão do que migrar para Back-end, afirma E1.</h1>
+                <p id="e1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quos pariatur sapiente minus explicabo dolorem id.</p>
+            </div>
+        
+    </div> 
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p>INSTAGRAM</p>
+            <p>LINKEDIN</p>
+            <p>DISCORD</p>
+            <p>DESENVOLVIDO POR ELIAS RODRIGUES</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.div1{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+
+.h01{
+    background-image: radial-gradient(to left, tomato, gray);
+    font-size: 50px;
+}
+
+.renault:hover {
+    background-color: rgba(0, 0, 255, 0.349);
+
+    
+}
+
+.item1:hover{
+    background-color: burlywood;
+    
+}
+.item2:hover{
+    background-color: burlywood;
+    
+}
+.item3:hover{
+    background-color: burlywood;
+
+    
+}
+
+img::first-line{
+    width: 200px;
+    height: 100px;
+    
+}
+
+/*.ul01:hover{
+    background-color: rgba(210, 105, 30, 0.363);
+    
+}*/

@@ -1,0 +1,24 @@
+*{
+    background-color: #F2E9E4;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+ 
+
+div.teste{
+    margin: 10px auto 10px auto;
+    background-color: darksalmon;
+    display: block;
+    color: #775f59;
+    text-align: justify;
+    
+}
+a{
+    color: black;
+    margin: 20px;
+}
+
+/*#prg{
+    display: block;
+    background-color: #775f59;
+}*/
