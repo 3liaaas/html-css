@@ -43,15 +43,15 @@
     <table>
         <theader>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="5">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="5" scope="colgroup">Filmes</th>
             </tr>
         </theader>
         <tbody>
             
             <tr>
-                <th rowspan="4" >Mulheres</th>
+                <th rowspan="4" scope="rowgroup">Mulheres</th>
             </tr>    
                     <tr>
                         <td>Ana Maria Santos</td>
@@ -73,12 +73,13 @@
                         <td class="movie">Big Hero</td>
                     </tr>
                 
+                    
             
         </tbody>
        
             <tbody>
                 <tr>
-                    <th rowspan="4">Homens</th>
+                    <th rowspan="4" scope="rowgroup">Homens</th>
                 </tr>
                     <tr>
                         <td>Fabiano Mota</td>
@@ -101,6 +102,10 @@
                 
             </tbody>
 
+            <tr>
+                <th colspan="4" scope="row">total</th>
+                <td>1000</td>
+            </tr>
 
     </table>
 </body>
