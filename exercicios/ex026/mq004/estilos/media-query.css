@@ -1,2 +1,44 @@
 @charset "UTf-8";
 
+@media print {
+    body{
+        background-image: url(../);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*tablet*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {display: none;} 
+    #tablet {display: block;}
+    #print {display: none;}
+    #desktop {display: none;}
+    #tv {display: none;}
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*desktop*/
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone {display: none;} 
+    #tablet {display: none;}
+    #print {display: none;}
+    #desktop {display: block;}
+    #tv {display: none;}
+}
+
+@media screen and (min-width: 1200px){ /*Grandes telas*/
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone {display: none;} 
+    #tablet {display: none;}
+    #print {display: none;}
+    #desktop {display: none;}
+    #tv {display: block;}
+}
